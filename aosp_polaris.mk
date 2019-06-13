@@ -12,7 +12,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Inherit some common PixelExperience stuff.
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
-CUSTOM_BUILD_TYPE := OFFICIAL
+CUSTOM_BUILD_TYPE := UNOFFICIAL
 TARGET_INCLUDE_STOCK_ARCORE := true 
 
 # Device identifier. This must come after all inclusions.
