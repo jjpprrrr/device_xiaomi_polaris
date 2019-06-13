@@ -1,19 +1,20 @@
 [
   {
-    "repository":  "device_xiaomi_sdm845-common",
+    "remote":      "origin",
+    "repository":  "jjpprrrr/device_xiaomi_sdm845-common",
     "target_path": "device/xiaomi/sdm845-common",
-    "branch":      "pie-pepsy"
+    "branch":      "pie"
   },
   {
-    "repository":  "kernel_xiaomi_sdm845",
-    "target_path": "kernel/xiaomi/sdm845",
-    "branch":      "pie-pepsy"
+    "repository":  "LineageOS/android_kernel_xiaomi_sdm845",
+    "target_path": "kernel/xiaomi/polaris",
+    "branch":      "lineage-16.0"
   },
   {
-    "remote":      "github",
-    "repository":  "PsyMan47/vendor_xiaomi",
+    "remote":      "origin",
+    "repository":  "TheMuppets/proprietary_vendor_xiaomi",
     "target_path": "vendor/xiaomi",
-    "branch":      "pie-sdm845"
+    "branch":      "lineage-16.0"
   },
   {
     "repository": "packages_apps_WallpapersBReel2018",
@@ -25,7 +26,7 @@
     "repository": "LineageOS/android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings",
     "branch": "lineage-16.0",
-    "remote": "github"
+    "remote": "origin"
   }
 ]
 
