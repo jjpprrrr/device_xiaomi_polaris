@@ -207,6 +207,7 @@
     <fraction name="config_maximumScreenDimRatio">20.000004%</fraction>
     <fraction name="config_screenAutoBrightnessDozeScaleFactor">100.0%</fraction>
 
+    <bool name="config_allowAllRotations">true</bool>
 
     <!-- Component name of the default wallpaper. This will be ImageWallpaper if not
          specified -->
