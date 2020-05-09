@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_polaris.mk
+    $(LOCAL_DIR)/havoc_polaris.mk
