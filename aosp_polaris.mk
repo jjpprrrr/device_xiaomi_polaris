@@ -7,6 +7,9 @@
 $(call inherit-product, device/xiaomi/polaris/device.mk)
 
 # Inherit some common PixelExperience stuff.
+EVO_MAINTAINER := jjpprrrr
+EVO_SUPPORT_URL := https://t.me/EvolutionXPolaris
+EVO_DONATE_URL := https://paypal.me/jjpprrrr
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_BOOT_ANIMATION_RES := 1080
