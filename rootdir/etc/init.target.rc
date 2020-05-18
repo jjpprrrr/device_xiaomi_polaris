@@ -38,3 +38,8 @@ service displayfeature-hal-1-0 /vendor/bin/hw/vendor.xiaomi.hardware.displayfeat
     group system graphics
     onrestart restart displayfeature
     disabled
+
+on boot
+    # Smart Charging
+    chown system system /sys/class/power_supply/battery/input_suspend
+    chmod 0666 /sys/class/power_supply/battery/input_suspend
