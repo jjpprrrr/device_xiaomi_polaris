@@ -31,4 +31,7 @@
     <bool name="config_proximityCheckOnWake">true</bool>
     <integer name="config_proximityCheckTimeout">100</integer>
     <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
+
+    <!-- Whether device uses linear screen brightness slider -->
+    <bool name="config_linearBrightnessSlider">true</bool>
 </resources>
