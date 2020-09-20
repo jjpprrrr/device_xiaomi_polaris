@@ -1,3 +1,7 @@
+# Fingerprint
+ro.hardware.fp.fpc=true
+ro.hardware.fp.goodix=true
+
 # GNSS
 persist.vendor.overlay.izat.optin=rro
 
