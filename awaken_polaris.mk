@@ -12,10 +12,10 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/awaken/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_polaris
+PRODUCT_NAME := awaken_polaris
 PRODUCT_DEVICE := polaris
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi MIX 2S
