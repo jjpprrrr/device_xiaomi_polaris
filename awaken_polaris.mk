@@ -13,6 +13,7 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 $(call inherit-product, vendor/awaken/config/common.mk)
+$(call inherit-product, vendor/awaken/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := awaken_polaris
