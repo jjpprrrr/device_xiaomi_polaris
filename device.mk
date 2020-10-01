@@ -103,6 +103,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libchrome.vendor
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Secure element
 PRODUCT_PACKAGES += \
     SecureElement
