@@ -281,8 +281,6 @@ vendor/lib/libpn553_fw.so
 vendor/lib64/jcos_nq_client.so|b271b5761373ac6d36fdb08f569bc362fd8638d8
 vendor/lib64/ls_nq_client.so|51f0ea8d81a62d5e775f863f9aedca9ef12af30d
 vendor/lib64/se_nq_extn_client.so|8c2087a41e3df2e3ae6d8715d0fd59650487d43f
-vendor/lib/libchrome.so|83281c1c037c22bdb56354583c94ab38ea8150a6
-vendor/lib64/libchrome.so|d3fde9bcdde82663e7f949e8dac5ef7bf52715e8
 
 # Secure element - from LA.UM.9.8.r1-02700-SDM710.0
 vendor/bin/hw/vendor.qti.secure_element@1.2-service|0ff5b6f1c8de459a22695f135696a9f1b9c842da
