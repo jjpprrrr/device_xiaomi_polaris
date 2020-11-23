@@ -379,10 +379,6 @@
 
     <bool name="config_allowAllRotations">true</bool>
 
-    <!-- Component name of the default wallpaper. This will be ImageWallpaper if not
-         specified -->
-    <string name="default_wallpaper_component" translatable="false">com.breel.wallpapers19/com.breel.wallpapers19.doodle.wallpaper.variations.DoodleWallpaperV1</string>
-
     <!-- Display mode remapping table.
          If the mode names returned by the backend do not match
          the predefined and translated strings in the Settings
@@ -395,8 +391,8 @@
         <item>srgb_d65:reading</item>
     </string-array>
 
-     <!-- Should we filter any display modes which are unampped? -->
-     <bool name="config_filterDisplayModes">true</bool>
+    <!-- Should we filter any display modes which are unampped? -->
+    <bool name="config_filterDisplayModes">true</bool>
 
     <!-- Enable Zram writeback feature to allow unused pages in zram be written to flash. -->
     <bool name="config_zramWriteback">true</bool>
