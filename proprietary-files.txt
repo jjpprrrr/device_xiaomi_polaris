@@ -286,11 +286,6 @@ vendor/lib/libkeymasterutils.so
 vendor/firmware/libpn553_rec.so
 vendor/lib/libpn553_fw.so
 
-# NQ Client
-vendor/lib64/jcos_nq_client.so|b271b5761373ac6d36fdb08f569bc362fd8638d8
-vendor/lib64/ls_nq_client.so|51f0ea8d81a62d5e775f863f9aedca9ef12af30d
-vendor/lib64/se_nq_extn_client.so|8c2087a41e3df2e3ae6d8715d0fd59650487d43f
-
 # Secure element - from LA.UM.9.8.r1-02700-SDM710.0
 vendor/bin/hw/vendor.qti.secure_element@1.2-service|0ff5b6f1c8de459a22695f135696a9f1b9c842da
 vendor/etc/init/vendor.qti.secure_element@1.2-service.rc|cb8e44a67709a5d9c2f0544058d79eb9f6faad7b
