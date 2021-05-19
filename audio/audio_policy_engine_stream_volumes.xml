@@ -26,7 +26,7 @@ volume index from 0 to 100.
     <volumeGroup>
         <name>voice_call</name>
         <indexMin>1</indexMin>
-        <indexMax>5</indexMax>
+        <indexMax>7</indexMax>
         <volume deviceCategory="DEVICE_CATEGORY_HEADSET">
               <point>0,-4200</point>
               <point>33,-2800</point>
