@@ -10,3 +10,6 @@ ro.se.type=HCE,UICC
 
 # System
 persist.sys.binary_xml=false
+
+# USB
+vendor.usb.product_string=Xiaomi Mi MIX 2S
