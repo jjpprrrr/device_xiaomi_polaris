@@ -18,6 +18,7 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_SUPPORTS_QUICK_TAP := true
 DEVICE_REQUIRES_CARRIER_APPS := true
 TARGET_SHIP_PREBUILT_APEX := true
+TARGET_ENABLE_BLUR := false
 
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
