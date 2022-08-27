@@ -23,5 +23,5 @@
     <bool name="config_supportBatteryHealth">true</bool>
 
     <!-- Adaptive Charging -->
-    <bool name="config_supportAdaptiveCharging">true</bool>
+    <bool name="config_supportSmartCharging">true</bool>
 </resources>
